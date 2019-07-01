@@ -1,0 +1,19 @@
+
+{
+    "getStatuses": {
+        "serverStatuses": [
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "ContractInterface",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "InventoryIngest",
+                "isResponding":    false
+            }
+        ]
+    }
+}

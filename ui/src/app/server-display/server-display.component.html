@@ -1,0 +1,196 @@
+<div class="row">
+  <div class="col-sm-2">
+    <button id="refreshView" class="btn btn-primary app-button" (click)="refreshView()">
+      Refresh Status
+    </button>
+  </div>
+  <div class="col-sm-4 text-left">
+    Last updated on {{ lastUpdatedTime | date : 'full' }}
+  </div>
+</div>
+
+<!--
+<div id="serverStatusView" class="row">
+  <ng-container *ngFor="let serverStatus of statusResponse?.serverStatuses">
+    <div class="col-4 status-box {{ serverStatus?.isResponding ? 'status-box-up' : 'status-box-down' }}">
+
+      <table border="0">
+        <tr>
+          <td class='status-box-title'> Environment </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Application Name </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Version </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Branch Name </td>
+        </tr>
+        <tr>
+          <td> {{ serverStatus.environmentName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.applicationName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.buildInfo?.version }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.gitInfo?.branchName }} </td>
+        </tr>
+      </table>
+
+    </div>
+  </ng-container>
+</div>
+!-->
+
+<div class="row">
+  <div class="col"> <h2 class="env-display">test1</h2> </div>
+</div>
+<div class="row">
+  <ng-container *ngFor="let serverStatus of test1Statuses">
+    <div class="col-4 status-box {{ serverStatus?.isResponding ? 'status-box-up' : 'status-box-down' }}">
+      <table border="0">
+        <tr>
+          <td class='status-box-title'> Environment </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Application Name </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Version </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Branch Name </td>
+        </tr>
+        <tr>
+          <td> {{ serverStatus.environmentName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.applicationName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.buildInfo?.version }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.gitInfo?.branchName }} </td>
+        </tr>
+      </table>
+
+    </div>
+  </ng-container>
+</div>
+
+<div class="row">
+  <div class="col"> <h2 class="env-display">test2</h2> </div>
+</div>
+<div class="row">
+    <ng-container *ngFor="let serverStatus of test2Statuses">
+      <div class="col-4 status-box {{ serverStatus?.isResponding ? 'status-box-up' : 'status-box-down' }}">
+        <table border="0">
+          <tr>
+            <td class='status-box-title'> Environment </td>
+            <td> &nbsp; </td>
+            <td class='status-box-title'> Application Name </td>
+            <td> &nbsp; </td>
+            <td class='status-box-title'> Version </td>
+            <td> &nbsp; </td>
+            <td class='status-box-title'> Branch Name </td>
+          </tr>
+          <tr>
+            <td> {{ serverStatus.environmentName }} </td>
+            <td> &nbsp; </td>
+            <td> {{ serverStatus.applicationName }} </td>
+            <td> &nbsp; </td>
+            <td> {{ serverStatus.buildInfo?.version }} </td>
+            <td> &nbsp; </td>
+            <td> {{ serverStatus.gitInfo?.branchName }} </td>
+          </tr>
+        </table>
+
+      </div>
+    </ng-container>
+</div>
+
+<div class="row">
+  <div class="col"> <h2 class="env-display">test3</h2> </div>
+</div>
+<div class="row">
+  <ng-container *ngFor="let serverStatus of test3Statuses">
+    <div class="col-4 status-box {{ serverStatus?.isResponding ? 'status-box-up' : 'status-box-down' }}">
+      <table border="0">
+        <tr>
+          <td class='status-box-title'> Environment </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Application Name </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Version </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Branch Name </td>
+        </tr>
+        <tr>
+          <td> {{ serverStatus.environmentName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.applicationName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.buildInfo?.version }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.gitInfo?.branchName }} </td>
+        </tr>
+      </table>
+
+    </div>
+  </ng-container>
+</div>
+
+<div class="row">
+  <div class="col"> <h2 class="env-display">test4</h2> </div>
+</div>
+<div class="row">
+  <ng-container *ngFor="let serverStatus of test4Statuses">
+    <div class="col-4 status-box {{ serverStatus?.isResponding ? 'status-box-up' : 'status-box-down' }}">
+      <table border="0">
+        <tr>
+          <td class='status-box-title'> Environment </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Application Name </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Version </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Branch Name </td>
+        </tr>
+        <tr>
+          <td> {{ serverStatus.environmentName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.applicationName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.buildInfo?.version }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.gitInfo?.branchName }} </td>
+        </tr>
+      </table>
+
+    </div>
+  </ng-container>
+</div>
+
+<div class="row">
+  <div class="col"> <h2 class="env-display">test5</h2> </div>
+</div>
+<div class="row">
+  <ng-container *ngFor="let serverStatus of test5Statuses">
+    <div class="col-4 status-box {{ serverStatus?.isResponding ? 'status-box-up' : 'status-box-down' }}">
+      <table border="0">
+        <tr>
+          <td class='status-box-title'> Environment </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Application Name </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Version </td>
+          <td> &nbsp; </td>
+          <td class='status-box-title'> Branch Name </td>
+        </tr>
+        <tr>
+          <td> {{ serverStatus.environmentName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.applicationName }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.buildInfo?.version }} </td>
+          <td> &nbsp; </td>
+          <td> {{ serverStatus.gitInfo?.branchName }} </td>
+        </tr>
+      </table>
+
+    </div>
+  </ng-container>
+</div>

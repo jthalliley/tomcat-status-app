@@ -1,0 +1,156 @@
+
+{
+    "getStatuses": {
+        "serverStatuses": [
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "Caps2AuthWS",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "ContractInterface",
+                "isResponding":    false
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "DealerInterface",
+                "isResponding":    false
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "Caps2WorkTheDeal",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "Caps2WorkNumberIntegration",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "InventoryIngest",
+                "isResponding":    true,
+                "buildInfo": {
+                    "version":  "4.1.2",
+                    "artifact": "InventoryIngest-4.1.2.war",
+                    "name":     "InventoryIngest",
+                    "group":    "com.cac.originations",
+                    "time":     1560880509000
+                },
+                "gitInfo": {
+                    "commitInfo": {
+                        "time": 1560880509000,
+                        "id":   "f849a16b5a1"
+                    },
+                    "branchName": "publish_release-2019-06-18"
+                }
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "InventoryManagement",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "LeadService",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "Step3CaptureConsumer",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "serverName":      "tu-mtorigws001-01",
+                "applicationName": "VehicleValueGuideServices",
+                "isResponding":    true
+            },
+
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "Caps2AuthWS",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "ContractInterface",
+                "isResponding":    false
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "DealerInterface",
+                "isResponding":    false
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "Caps2WorkTheDeal",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "Caps2WorkNumberIntegration",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "InventoryIngest",
+                "isResponding":    true,
+                "buildInfo": {
+                    "version":  "4.1.2",
+                    "artifact": "InventoryIngest-4.1.2.war",
+                    "name":     "InventoryIngest",
+                    "group":    "com.cac.originations",
+                    "time":     1560880509000
+                },
+                "gitInfo": {
+                    "commitInfo": {
+                        "time": 1560880509000,
+                        "id":   "f849a16b5a1"
+                    },
+                    "branchName": "publish_release-2019-06-18"
+                }
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "InventoryManagement",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "LeadService",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "Step3CaptureConsumer",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test2",
+                "serverName":      "tu-mtorigws002-01",
+                "applicationName": "VehicleValueGuideServices",
+                "isResponding":    true
+            }
+        ]
+    }
+}

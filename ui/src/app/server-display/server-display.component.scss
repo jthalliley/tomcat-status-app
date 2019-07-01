@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+.env-display {
+    width:            100%;
+    color:            White;
+    background-color: #CCCCCC;
+    padding:          5px;
+    margin:           0px;
+    margin-top:       10px;
+}
+
+.status-box {
+    border:           2px solid $status-border-color;
+    padding:          3px;
+    margin:           5px;
+    font-size:        12pt;
+    font-weight:      Bold;
+}
+
+.status-box-default {
+    color:            $status-fg-color;
+    background-color: $status-bg-color-default;
+}
+
+.status-box-up {
+    color:            $status-fg-color;
+    background-color: $up-color;
+}
+
+.status-box-down {
+    color:            $status-fg-color;
+    background-color: $down-color;
+}
+
+.status-box-title {
+    font-size: 7pt;
+}

@@ -1,0 +1,15 @@
+@import './variables';
+
+body {
+    font-family: Sans-Serif;
+    font-size:   12pt;
+}
+
+.app-button {
+    margin:           5px 5px 5px 5px;
+    padding:          5px 5px 5px 5px;
+    font-weight:      Bold;
+    color:            $button-fg-color;
+    background-color: $button-bg-color;
+    border:           1px solid $button-border-color;
+}
