@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source ~/bin/setup-java-1.8.sh
+javac -version
 
 npm install && ./node_modules/.bin/ng build --prod && mvn clean install

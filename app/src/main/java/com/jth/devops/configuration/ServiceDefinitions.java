@@ -1,4 +1,4 @@
-package com.ca.devops.configuration;
+package com.jth.devops.configuration;
 
 import java.io.IOException;
 import java.net.URL;

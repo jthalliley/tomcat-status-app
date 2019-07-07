@@ -1,4 +1,4 @@
-package com.ca.devops.core;
+package com.jth.devops.core;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,18 +8,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.ca.devops.response.StatusResponse;
-import com.ca.devops.response.ServerStatus;
-import com.ca.devops.response.BuildInfo;
-import com.ca.devops.response.GitInfo;
-import com.ca.devops.response.CommitInfo;
+import com.jth.devops.response.StatusResponse;
+import com.jth.devops.response.ServerStatus;
+import com.jth.devops.response.BuildInfo;
+import com.jth.devops.response.GitInfo;
+import com.jth.devops.response.CommitInfo;
 
-import com.ca.devops.actuator.Endpoint;
-import com.ca.devops.actuator.response.Info;
+import com.jth.devops.actuator.Endpoint;
+import com.jth.devops.actuator.response.Info;
 
-import com.ca.devops.configuration.Service;
-import com.ca.devops.configuration.ServiceDefinitions;
-import com.ca.devops.configuration.ServiceResponseKind;
+import com.jth.devops.configuration.Service;
+import com.jth.devops.configuration.ServiceDefinitions;
+import com.jth.devops.configuration.ServiceResponseKind;
 
 @org.springframework.stereotype.Service
 public class Reacher {
@@ -50,14 +50,8 @@ public class Reacher {
         Info     info     = null;
 
         switch (service.getKind()) {
-        case PING:
-            info = endpoint.hitAcceptPing(service.getUrl());
-            break;
         case ACTUATOR_INFO:
             info = endpoint.hitAcceptJson(service.getUrl());
-            break;
-        case SERVER_STATUS:
-            info = endpoint.hitAcceptServerStatus(service.getUrl());
             break;
         case HTTP_STATUS:
             info = endpoint.hitForHttpStatus(service.getUrl());

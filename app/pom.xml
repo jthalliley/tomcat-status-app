@@ -18,7 +18,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cac.devops</groupId>
+            <groupId>com.jth.devops</groupId>
             <artifactId>ServerStatusUI</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -104,12 +104,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <scm>
-        <url>https://github.com/jthalliley/tomcat-status-app.git</url>
-        <connection>scm:git:ssh://git@github.com/jthalliley/tomcat-status-app.git</connection>
-        <developerConnection>scm:git:ssh://git@$github.com/jthalliley/tomcat-status-app.git</developerConnection>
-        <tag>0.2.12</tag>
-    </scm>
 
 </project>

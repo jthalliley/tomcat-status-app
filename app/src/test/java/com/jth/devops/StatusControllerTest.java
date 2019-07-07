@@ -1,4 +1,4 @@
-package com.ca.devops;
+package com.jth.devops;
 
 import static org.junit.jupiter.api.Assertions.*;
 

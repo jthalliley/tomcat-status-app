@@ -1,4 +1,4 @@
-package com.ca.devops.configuration;
+package com.jth.devops.configuration;
 
 public class Definition {
 

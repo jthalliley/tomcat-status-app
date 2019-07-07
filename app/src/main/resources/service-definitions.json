@@ -1,18 +1,11 @@
 {
     "services": [
         {
-            "environmentName": "test1",
+            "environmentName": "dev",
             "serverName": "localhost",
-            "applicationName": "app1",
-            "url": "https://localhost:8888/app1/actuator/info",
+            "applicationName": "this_app",
+            "url": "http://localhost:3000/actuator/info",
             "kind": "ACTUATOR_INFO"
-        },
-        {
-            "environmentName": "test1",
-            "serverName": "localhost",
-            "applicationName": "app2",
-            "url": "https://localhost:8888/app2/actuator/info",
-            "kind": "ACTUATOR_INFO"
-        },
+        }
     ]
 }

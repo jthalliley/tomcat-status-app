@@ -1,4 +1,4 @@
-package com.ca.devops.response;
+package com.jth.devops.response;
 
 import java.io.Serializable;
 

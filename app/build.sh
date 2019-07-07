@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source ~/bin/setup-java-1.8.sh
+javac -version
 
 mvn clean package

@@ -1,4 +1,4 @@
-package com.ca.devops.actuator.response;
+package com.jth.devops.actuator.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

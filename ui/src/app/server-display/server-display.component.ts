@@ -14,7 +14,8 @@ export class ServerDisplayComponent implements OnInit {
     lastUpdatedTime: number;
     statusResponse:  StatusResponse;
 
-    environments:    string[] = ['test1', 'test2', 'test3', 'test4', 'test5'];
+    environments:    string[] = ['dev', 'test1', 'test2', 'test3', 'test4', 'test5'];
+    devStatuses:     ServerStatus[];
     test1Statuses:   ServerStatus[];
     test2Statuses:   ServerStatus[];
     test3Statuses:   ServerStatus[];
@@ -56,6 +57,9 @@ export class ServerDisplayComponent implements OnInit {
     }
 
     private splitStatuses(): void {
+        this.devStatuses = this.statusResponse.serverStatuses
+            .filter( status => { return status.environmentName === 'dev'; } )
+        ;
         this.test1Statuses = this.statusResponse.serverStatuses
             .filter( status => { return status.environmentName === 'test1'; } )
         ;
