@@ -3,8 +3,8 @@
         {
             "environmentName": "dev",
             "serverName": "localhost",
-            "applicationName": "this_app",
-            "url": "http://localhost:3000/actuator/info",
+            "applicationName": "vfToDo",
+            "url": "http://localhost:8080/info",
             "kind": "ACTUATOR_INFO"
         }
     ]

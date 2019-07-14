@@ -15,12 +15,6 @@ export class ServerDisplayComponent implements OnInit {
     statusResponse:  StatusResponse;
 
     environments:    string[] = ['dev', 'test1', 'test2', 'test3', 'test4', 'test5'];
-    devStatuses:     ServerStatus[];
-    test1Statuses:   ServerStatus[];
-    test2Statuses:   ServerStatus[];
-    test3Statuses:   ServerStatus[];
-    test4Statuses:   ServerStatus[];
-    test5Statuses:   ServerStatus[];
 
 
     constructor(private statusService: StatusService) { }
@@ -28,8 +22,6 @@ export class ServerDisplayComponent implements OnInit {
     ngOnInit() {
         this.statusService.change.subscribe(statusResponse => {
             this.statusResponse = this.sortStatuses(statusResponse);
-
-            this.splitStatuses();
         });
 
         this.refreshView();
@@ -54,27 +46,6 @@ export class ServerDisplayComponent implements OnInit {
         ;
 
         return result;
-    }
-
-    private splitStatuses(): void {
-        this.devStatuses = this.statusResponse.serverStatuses
-            .filter( status => { return status.environmentName === 'dev'; } )
-        ;
-        this.test1Statuses = this.statusResponse.serverStatuses
-            .filter( status => { return status.environmentName === 'test1'; } )
-        ;
-        this.test2Statuses = this.statusResponse.serverStatuses
-            .filter( status => { return status.environmentName === 'test2'; } )
-        ;
-        this.test3Statuses = this.statusResponse.serverStatuses
-            .filter( status => { return status.environmentName === 'test3'; } )
-        ;
-        this.test4Statuses = this.statusResponse.serverStatuses
-            .filter( status => { return status.environmentName === 'test4'; } )
-        ;
-        this.test5Statuses = this.statusResponse.serverStatuses
-            .filter( status => { return status.environmentName === 'test5'; } )
-        ;
     }
 
 }

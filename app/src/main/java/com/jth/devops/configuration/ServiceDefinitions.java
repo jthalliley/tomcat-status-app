@@ -9,9 +9,6 @@ import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-//import org.springframework.context.annotation.Bean;
-//import org.springframework.stereotype.Service;
-
 @org.springframework.stereotype.Service
 public class ServiceDefinitions {
 
@@ -20,10 +17,6 @@ public class ServiceDefinitions {
     private static final String SERVICE_DEFINITIONS = "service-definitions.json";
 
     private Service[] services;
-
-//    @Bean public ServiceDefinitions getServiceDefinitions() {
-//        return new ServiceDefinitions();
-//    }
 
     private ServiceDefinitions() {}
 
