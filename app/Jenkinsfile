@@ -1,0 +1,15 @@
+@Library('devops')_
+
+import com.cac.devops.JenkinsfileKinds
+
+node {
+    stage('Select Jenkinsfile') {
+        selectJenkinsfile(
+            script: this,
+            kind: JenkinsfileKinds.WAR_JAVA8,
+            deployableDirectories: [
+                '.'
+            ]
+        )
+    }
+}

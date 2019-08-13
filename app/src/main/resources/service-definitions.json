@@ -1,11 +1,879 @@
 {
     "services": [
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "Aggregator",
+            "url": "http://tu-mtorig001-01.cac.com:7005/aggregator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "Aggregator",
+            "url": "http://tu-mtorig002-01.cac.com:7005/aggregator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "Aggregator",
+            "url": "http://tu-mtorig003-01.cac.com:7005/aggregator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "Aggregator",
+            "url": "http://tu-mtorig004-01.cac.com:7005/aggregator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "Aggregator",
+            "url": "http://tu-mtorig005-01.cac.com:7005/aggregator/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "ApplicantBureauScoring",
+            "url": "http://tu-mtorig001-01.cac.com:7008/applicantbureauscoring/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "BlackBookLoad",
+            "url": "http://tu-mtorig001-01.cac.com:7014/bbload/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "BlackBookLoad",
+            "url": "http://tu-mtorig002-01.cac.com:7014/bbload/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "BlackBookLoad",
+            "url": "http://tu-mtorig003-01.cac.com:7014/bbload/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "BlackBookLoad",
+            "url": "http://tu-mtorig004-01.cac.com:7014/bbload/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "BlackBookLoad",
+            "url": "http://tu-mtorig005-01.cac.com:7014/bbload/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "BlackBook",
+            "url": "http://tu-mtorig001-01.cac.com:7018/bbook/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "BlackBook",
+            "url": "http://tu-mtorig002-01.cac.com:7018/bbook/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "BlackBook",
+            "url": "http://tu-mtorig003-01.cac.com:7018/bbook/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "BlackBook",
+            "url": "http://tu-mtorig004-01.cac.com:7018/bbook/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "BlackBook",
+            "url": "http://tu-mtorig005-01.cac.com:7018/bbook/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "Inventory",
+            "url": "http://tu-mtorig001-01.cac.com:7007/inventory/pages/InvalidLogin.html",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "Inventory",
+            "url": "http://tu-mtorig002-01.cac.com:7007/inventory/pages/InvalidLogin.html",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "Inventory",
+            "url": "http://tu-mtorig003-01.cac.com:7007/inventory/pages/InvalidLogin.html",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "Inventory",
+            "url": "http://tu-mtorig004-01.cac.com:7007/inventory/pages/InvalidLogin.html",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "Inventory",
+            "url": "http://tu-mtorig005-01.cac.com:7007/inventory/pages/InvalidLogin.html",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "CapsSidStatus",
+            "url": "http://tu-mtorig001-01.cac.com:7012/capssidstatus/services/sidEsnUpdate.wsdl",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "CapsSidStatus",
+            "url": "http://tu-mtorig002-01.cac.com:7012/capssidstatus/services/sidEsnUpdate.wsdl",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "CapsSidStatus",
+            "url": "http://tu-mtorig003-01.cac.com:7012/capssidstatus/services/sidEsnUpdate.wsdl",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "CapsSidStatus",
+            "url": "http://tu-mtorig004-01.cac.com:7012/capssidstatus/services/sidEsnUpdate.wsdl",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "CapsSidStatus",
+            "url": "http://tu-mtorig005-01.cac.com:7012/capssidstatus/services/sidEsnUpdate.wsdl",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "DealCalculator",
+            "url": "http://tu-mtorig001-01.cac.com:7010/dealcalculator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "DealCalculator",
+            "url": "http://tu-mtorig002-01.cac.com:7010/dealcalculator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "DealCalculator",
+            "url": "http://tu-mtorig003-01.cac.com:7010/dealcalculator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "DealCalculator",
+            "url": "http://tu-mtorig004-01.cac.com:7010/dealcalculator/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "DealCalculator",
+            "url": "http://tu-mtorig005-01.cac.com:7010/dealcalculator/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "LeadService",
+            "url": "https://tu-mtcapswsi-01.cac.com:8500/leadservice/actuator/health",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "LeadService",
+            "url": "https://tu-mtcapswsi-02.cac.com:8500/leadservice/actuator/health",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "LeadService",
+            "url": "https://tu-mtcapswsi-03.cac.com:8500/leadservice/actuator/health",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "LeadService",
+            "url": "https://tu-mtcapswsi-04.cac.com:8500/leadservice/actuator/health",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "LeadService",
+            "url": "https://tu-mtcapswsi-05.cac.com:8500/leadservice/actuator/health",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "LexisNexisRvScoring",
+            "url": "http://tu-mtorig001-01.cac.com:7006/lexisnexisrvscoring/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "LexisNexisRvScoring",
+            "url": "http://tu-mtorig002-01.cac.com:7006/lexisnexisrvscoring/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "LexisNexisRvScoring",
+            "url": "http://tu-mtorig003-01.cac.com:7006/lexisnexisrvscoring/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "LexisNexisRvScoring",
+            "url": "http://tu-mtorig004-01.cac.com:7006/lexisnexisrvscoring/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "LexisNexisRvScoring",
+            "url": "http://tu-mtorig005-01.cac.com:7006/lexisnexisrvscoring/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "Risk5000Deal",
+            "url": "http://tu-mtorig001-01.cac.com:7011/risk5000deal/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "Risk5000Deal",
+            "url": "http://tu-mtorig002-01.cac.com:7011/risk5000deal/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "Risk5000Deal",
+            "url": "http://tu-mtorig003-01.cac.com:7011/risk5000deal/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "Risk5000Deal",
+            "url": "http://tu-mtorig004-01.cac.com:7011/risk5000deal/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "Risk5000Deal",
+            "url": "http://tu-mtorig005-01.cac.com:7011/risk5000deal/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "RouteOne",
+            "url": "http://tu-mtorig001-01.cac.com:7019/routeone/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "RouteOne",
+            "url": "http://tu-mtorig002-01.cac.com:7019/routeone/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "RouteOne",
+            "url": "http://tu-mtorig003-01.cac.com:7019/routeone/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "RouteOne",
+            "url": "http://tu-mtorig004-01.cac.com:7019/routeone/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "RouteOne",
+            "url": "http://tu-mtorig005-01.cac.com:7019/routeone/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "Steps",
+            "url": "http://tu-mtorig001-01.cac.com:7003/steps/serverinfo",
+            "kind": "SERVER_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "Steps",
+            "url": "http://tu-mtorig002-01.cac.com:7003/steps/serverinfo",
+            "kind": "SERVER_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "Steps",
+            "url": "http://tu-mtorig003-01.cac.com:7003/steps/serverinfo",
+            "kind": "SERVER_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "Steps",
+            "url": "http://tu-mtorig004-01.cac.com:7003/steps/serverinfo",
+            "kind": "SERVER_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "Steps",
+            "url": "http://tu-mtorig005-01.cac.com:7003/steps/serverinfo",
+            "kind": "SERVER_STATUS"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "StepsDealerTrack",
+            "url": "http://tu-mtorig001-01.cac.com:7017/stepsdealertrack/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "StepsDealerTrack",
+            "url": "http://tu-mtorig002-01.cac.com:7017/stepsdealertrack/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "StepsDealerTrack",
+            "url": "http://tu-mtorig003-01.cac.com:7017/stepsdealertrack/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "StepsDealerTrack",
+            "url": "http://tu-mtorig004-01.cac.com:7017/stepsdealertrack/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "StepsDealerTrack",
+            "url": "http://tu-mtorig005-01.cac.com:7017/stepsdealertrack/",
+            "kind": "HTTP_STATUS"
+        },
+
+
         {
             "environmentName": "dev",
-            "serverName": "localhost",
-            "applicationName": "vfToDo",
-            "url": "http://localhost:8080/info",
+            "projectId": "ORIG",
+            "applicationName": "CapsAuthWS",
+            "url": "https://du1mtcapwsi1001.cac.com:8447/CapsAuthWS/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "CapsAuthWS",
+            "url": "https://tu-mtcapswsi-01.cac.com:8447/CapsAuthWS/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "CapsAuthWS",
+            "url": "https://tu-mtcapswsi-02.cac.com:8447/CapsAuthWS/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "CapsAuthWS",
+            "url": "https://tu-mtcapswsi-03.cac.com:8447/CapsAuthWS/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "CapsAuthWS",
+            "url": "https://tu-mtcapswsi-04.cac.com:8447/CapsAuthWS/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "CapsAuthWS",
+            "url": "https://tu-mtcapswsi-05.cac.com:8447/CapsAuthWS/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "ContractInterface",
+            "url": "https://du1mtcapwsi1001.cac.com:8458/contractInterface/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "ContractInterface",
+            "url": "https://tu-mtcapswsi-01.cac.com:8458/contractInterface/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "ContractInterface",
+            "url": "https://tu-mtcapswsi-02.cac.com:8458/contractInterface/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "ContractInterface",
+            "url": "https://tu-mtcapswsi-03.cac.com:8458/contractInterface/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "ContractInterface",
+            "url": "https://tu-mtcapswsi-04.cac.com:8458/contractInterface/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "ContractInterface",
+            "url": "https://tu-mtcapswsi-05.cac.com:8458/contractInterface/ping",
+            "kind": "PING"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "DealerInterface",
+            "url": "https://du1mtcapwsi1001.cac.com:8459/dealerInterface/ping",
             "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "DealerInterface",
+            "url": "https://tu-mtcapswsi-01.cac.com:8459/dealerInterface/ping",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "DealerInterface",
+            "url": "https://tu-mtcapswsi-02.cac.com:8459/dealerInterface/ping",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "DealerInterface",
+            "url": "https://tu-mtcapswsi-03.cac.com:8459/dealerInterface/ping",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "DealerInterface",
+            "url": "https://tu-mtcapswsi-04.cac.com:8459/dealerInterface/ping",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "DealerInterface",
+            "url": "https://tu-mtcapswsi-05.cac.com:8459/dealerInterface/ping",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "DocumentService",
+            "url": "https://du1mtcapwsi1001.cac.com:8503/document-service/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "DocumentService",
+            "url": "https://tu-mtcapswsi-01.cac.com:8503/document-service/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "DocumentService",
+            "url": "https://tu-mtcapswsi-02.cac.com:8503/document-service/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "DocumentService",
+            "url": "https://tu-mtcapswsi-03.cac.com:8503/document-service/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "DocumentService",
+            "url": "https://tu-mtcapswsi-04.cac.com:8503/document-service/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "DocumentService",
+            "url": "https://tu-mtcapswsi-05.cac.com:8503/document-service/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "EContracting",
+            "url": "https://du1mtcapwsi1001.cac.com:7015/steps-econtract/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "EContracting",
+            "url": "http://tu-mtorig001-01.cac.com:7015/steps-econtract/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "EContracting",
+            "url": "http://tu-mtorig002-01.cac.com:7015/steps-econtract/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "EContracting",
+            "url": "http://tu-mtorig003-01.cac.com:7015/steps-econtract/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "EContracting",
+            "url": "http://tu-mtorig004-01.cac.com:7015/steps-econtract/",
+            "kind": "HTTP_STATUS"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "EContracting",
+            "url": "http://tu-mtorig005-01.cac.com:7015/steps-econtract/",
+            "kind": "HTTP_STATUS"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "InventoryIngest",
+            "url": "https://du1mtcapwsi1001.cac.com:8494/inventoryingest/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "InventoryIngest",
+            "url": "https://tu-mtcapswsi-01.cac.com:8494/inventoryingest/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "InventoryIngest",
+            "url": "https://tu-mtcapswsi-02.cac.com:8494/inventoryingest/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "InventoryIngest",
+            "url": "https://tu-mtcapswsi-03.cac.com:8494/inventoryingest/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "InventoryIngest",
+            "url": "https://tu-mtcapswsi-05.cac.com:8494/inventoryingest/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "InventoryIngest",
+            "url": "https://tu-mtcapswsi-05.cac.com:8494/inventoryingest/info",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "InventoryManagement",
+            "url": "https://du1mtcapwsi1001.cac.com/inventory-management/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "InventoryManagement",
+            "url": "https://tu-mtcapswsi-01.cac.com:8493/inventory-management/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "InventoryManagement",
+            "url": "https://tu-mtcapswsi-02.cac.com:8493/inventory-management/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "InventoryManagement",
+            "url": "https://tu-mtcapswsi-03.cac.com:8493/inventory-management/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "InventoryManagement",
+            "url": "https://tu-mtcapswsi-05.cac.com:8493/inventory-management/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "InventoryManagement",
+            "url": "https://tu-mtcapswsi-05.cac.com:8493/inventory-management/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "dev",
+            "projectId": "ORIG",
+            "applicationName": "Step3CaptureConsumer",
+            "url": "https://du1mtcapwsi1001.cac.com:8498/Step3CaptureConsumer/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "Step3CaptureConsumer",
+            "url": "https://tu-mtcapswsi-01:8498/Step3CaptureConsumer/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "Step3CaptureConsumer",
+            "url": "https://tu-mtcapswsi-02:8498/Step3CaptureConsumer/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "Step3CaptureConsumer",
+            "url": "https://tu-mtcapswsi-03:8498/Step3CaptureConsumer/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "Step3CaptureConsumer",
+            "url": "https://tu-mtcapswsi-04:8498/Step3CaptureConsumer/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "Step3CaptureConsumer",
+            "url": "https://tu-mtcapswsi-05:8498/Step3CaptureConsumer/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "VehicleValueGateway",
+            "url": "https://tu-mtcapswsi-01.cac.com:8450/VehicleValueGateway/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "VehicleValueGateway",
+            "url": "https://tu-mtcapswsi-02.cac.com:8450/VehicleValueGateway/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "VehicleValueGateway",
+            "url": "https://tu-mtcapswsi-03.cac.com:8450/VehicleValueGateway/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "VehicleValueGateway",
+            "url": "https://tu-mtcapswsi-04.cac.com:8450/VehicleValueGateway/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "VehicleValueGateway",
+            "url": "https://tu-mtcapswsi-05.cac.com:8450/VehicleValueGateway/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "VehicleValueService",
+            "url": "https://tu-mtcapswsi-01.cac.com:8449/VehicleValueService/actuator/info",
+            "kind": "ACTUATOR_INFO"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ORIG",
+            "applicationName": "WorkNumber",
+            "url": "http://tu-mtcapswsi-01.cac.com:8081/WorkNumberIntegration/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test2",
+            "projectId": "ORIG",
+            "applicationName": "WorkNumber",
+            "url": "http://tu-mtcapswsi-02.cac.com:8081/WorkNumberIntegration/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test3",
+            "projectId": "ORIG",
+            "applicationName": "WorkNumber",
+            "url": "http://tu-mtcapswsi-03.cac.com:8081/WorkNumberIntegration/ping",
+            "kind": "PING"
+        },
+
+        {
+            "environmentName": "test4",
+            "projectId": "ORIG",
+            "applicationName": "WorkNumber",
+            "url": "http://tu-mtcapswsi-04.cac.com:8081/WorkNumberIntegration/ping",
+            "kind": "PING"
+        },
+        {
+            "environmentName": "test5",
+            "projectId": "ORIG",
+            "applicationName": "WorkNumber",
+            "url": "http://tu-mtcapswsi-05.cac.com:8081/WorkNumberIntegration/ping",
+            "kind": "PING"
+        },
+
+        {
+            "environmentName": "test1",
+            "projectId": "ESS",
+            "applicationName": "CustomerHub",
+            "url": "https://internalwstst.creditacceptance.com/customerHub/ping",
+            "kind": "PING"
         }
+
     ]
 }

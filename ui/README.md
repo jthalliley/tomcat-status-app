@@ -17,3 +17,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ```bash
 ./build.sh
 ```
+
+The result of this build will be a ```.jar``` file which is then packaged with the application.

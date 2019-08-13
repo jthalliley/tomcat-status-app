@@ -1,6 +1,7 @@
 # TomcatStatusApp
 
-This is a simple SpringBoot app,  where all services are pinged from this server app, and results are then made available to the UI.
+This is a simple SpringBoot app, where all services are pinged from
+this server app, and results are then made available to the UI.
 
 ## ui directory
 
@@ -24,6 +25,12 @@ This is a simple SpringBoot app,  where all services are pinged from this server
 ```
 
 and go to http://localhost:3000 in your browser.
+
+# To build and run the Production app
+
+```bash
+./build-and-run.sh
+```
 
 # To monitor this app
 
