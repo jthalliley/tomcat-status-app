@@ -39,6 +39,8 @@ Go to http://localhost:3000/actuator/info or http://localhost:3000/actuator/heal
 
 # TO DO List
 
+0. Re-genericize!!!
+
 1. Change API to something that hits the URLs asynchronously, and returns results asynchronously.
 
    * Could do this by having 1 call to get list of apps to be displayed (minimal data), then calling back end with each app individually and asynchronously to get results back asynchronously.
