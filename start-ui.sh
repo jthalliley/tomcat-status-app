@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd ui
-ng serve
+./node_modules/.bin/ng serve
 

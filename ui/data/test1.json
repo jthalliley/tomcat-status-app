@@ -4,14 +4,32 @@
         "serverStatuses": [
             {
                 "environmentName": "test1",
-                "serverName":      "tu-mtorigws001-01",
+                "projectId":       "ORIG",
                 "applicationName": "ContractInterface",
                 "isResponding":    true
             },
             {
                 "environmentName": "test1",
-                "serverName":      "tu-mtorigws001-01",
-                "applicationName": "InventoryIngest",
+                "projectId":       "ORIG",
+                "applicationName": "DealerInterface",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "projectId":       "ORIG",
+                "applicationName": "Foo",
+                "isResponding":    false
+            },
+            {
+                "environmentName": "test1",
+                "projectId":       "ORIG",
+                "applicationName": "Bar",
+                "isResponding":    true
+            },
+            {
+                "environmentName": "test1",
+                "projectId":       "ORIG",
+                "applicationName": "Baz",
                 "isResponding":    false
             }
         ]

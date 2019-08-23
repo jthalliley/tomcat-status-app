@@ -3,16 +3,26 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jth.devops</groupId>
+    <groupId>com.cac.devops</groupId>
     <artifactId>ServerStatusUI</artifactId>
     <name>ServerStatusUI</name>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
+        <nexus-server>nexus.creditacceptance.com</nexus-server>
+        <bitbucket-server>bitbucket.creditacceptance.com</bitbucket-server>
+        <bitbucket-project>ci</bitbucket-project>
+        <bitbucket-repo>tomcat-status-app</bitbucket-repo>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
+        <nexus-server>nexus.creditacceptance.com</nexus-server>
+        <bitbucket-server>bitbucket.creditacceptance.com</bitbucket-server>
+        <bitbucket-project>ci</bitbucket-project>
+        <bitbucket-repo>tomcat-status-app</bitbucket-repo>
     </properties>
 
     <build>
@@ -25,5 +35,26 @@
             </resource>
         </resources>
     </build>
+
+    <scm>
+        <url>https://${bitbucket-server}/scm/${bitbucket-project}/${bitbucket-repo}.git</url>
+        <connection>scm:git:ssh://git@${bitbucket-server}:7999/${bitbucket-project}/${bitbucket-repo}.git</connection>
+        <developerConnection>scm:git:ssh://git@${bitbucket-server}:7999/${bitbucket-project}/${bitbucket-repo}.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <name>Internal Release Repository</name>
+            <uniqueVersion>true</uniqueVersion>
+            <url>https://${nexus-server}/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <name>Internal Snapshot Repository</name>
+            <url>https://${nexus-server}/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

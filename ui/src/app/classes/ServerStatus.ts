@@ -4,7 +4,7 @@ import { GitInfo   } from './GitInfo';
 export class ServerStatus {
 
     environmentName: string;
-    serverName:      string;
+    projectId:       string;
     applicationName: string;
     isResponding:    boolean;
     buildInfo:       BuildInfo;

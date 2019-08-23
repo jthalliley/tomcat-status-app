@@ -1,6 +1,7 @@
 # TomcatStatusApp
 
-This is a simple SpringBoot app,  where all services are pinged from this server app, and results are then made available to the UI.
+This is a simple SpringBoot app, where all services are pinged from
+this server app, and results are then made available to the UI.
 
 ## ui directory
 
@@ -25,6 +26,12 @@ This is a simple SpringBoot app,  where all services are pinged from this server
 
 and go to http://localhost:3000 in your browser.
 
+# To build and run the Production app
+
+```bash
+./build-and-run.sh
+```
+
 # To monitor this app
 
 Go to http://localhost:3000/actuator/info or http://localhost:3000/actuator/health in your browser.
@@ -38,3 +45,5 @@ Go to http://localhost:3000/actuator/info or http://localhost:3000/actuator/heal
 
 2. Make boxes smaller (narrower) to fit all on screen at once.
    * Could do by columns per environment.
+
+3. Use a mask over UI while refresh is happening.
